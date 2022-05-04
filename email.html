@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title></title>
+        
+    </head>
+    <body>
+        <form method="post" action="otp">
+             {% csrf_token %}
+            Name<input type="text" name="name" />
+            Email<input type="email" name="email" />
+            <input type="submit" value="veryfi" />
+        </form>
+
+    </body>
+</html>
